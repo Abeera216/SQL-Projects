@@ -1,22 +1,25 @@
-# SQL-Projects
-Learning SQL through hands-on projects focused on databases, data analysis, and real-world problem solving.
+# SQL Projects
 
--------------------------------------------------------------------------
-I am currently learning SQL and database management systems. This repository contains one of my beginner SQL projects where I practiced creating relational databases, using primary and foreign keys, and managing structured data.
+A collection of SQL projects exploring data analysis, real-world problem solving, and environmental applications. 
+These projects began as traditional data exercises and were later adapted into domain-specific analyses to align with 
+my academic background and interests.
 
-# Coffee Shop SQL Project
+## Project Progression
 
-This project was created while following the SQL course by Mo Chen. The course helped me understand the fundamentals of SQL and relational database design, and I recreated the project independently as part of my learning process.
+**golden_age_of_video_games → analyzing_industry_carbon_emissions**
 
-I am continuously improving my SQL skills and working on more projects involving databases, data analysis, and engineering-related applications. More projects will be added to this GitHub profile over time.
+A traditional video games dataset analysis was the starting point for learning core SQL concepts. Those same skills were 
+then applied to carbon emissions data — shifting the focus from entertainment metrics to environmental impact across 
+industries and countries.
 
 ## Skills Practiced
-- SQL fundamentals
-- Database design
-- Primary & foreign keys
-- Table relationships
-- Data insertion and updates
-- Relational database concepts
+- Joins and table relationships
+- GROUP BY, HAVING, ORDER BY
+- Aggregations (SUM, AVG, COUNT)
+- Subqueries and CTEs
+- Window functions (RANK, LAG)
+- Set theory (INTERSECT)
 
-## Credits
-Course guidance and learning inspiration by Mo Chen.
+## Note on Data
+Projects use sample datasets with AI-generated values created for learning purposes, modelled after real-world 
+data structures.
