@@ -1,25 +1,19 @@
 # SQL Projects
 
-A collection of SQL projects exploring data analysis, real-world problem solving, and environmental applications. 
-These projects began as traditional data exercises and were later adapted into domain-specific analyses to align with 
-my academic background and interests.
+A SQL project exploring carbon footprint data across companies, industries and countries — aggregation, benchmarking, and year-over-year trend analysis.
 
-## Project Progression
+## Project: Analyzing Industry Carbon Emissions
 
-**golden_age_of_video_games → analyzing_industry_carbon_emissions**
-
-A traditional video games dataset analysis was the starting point for learning core SQL concepts. Those same skills were 
-then applied to carbon emissions data — shifting the focus from entertainment metrics to environmental impact across 
-industries and countries.
+Starting from a raw product-level carbon footprint dataset, this project moves from basic aggregation (totals and averages by industry/country) to comparative analysis (benchmarking industries against the portfolio-wide average) to trend analysis (year-over-year change per company and peer ranking within industry, using window functions).
 
 ## Skills Practiced
-- Joins and table relationships
+
 - GROUP BY, HAVING, ORDER BY
 - Aggregations (SUM, AVG, COUNT)
-- Subqueries and CTEs
+- Correlated subqueries
+- CASE expressions
 - Window functions (RANK, LAG)
-- Set theory (INTERSECT)
 
 ## Note on Data
-Projects use sample datasets with AI-generated values created for learning purposes, modelled after real-world 
-data structures.
+
+This project uses a sample dataset with AI-generated values created for learning purposes, modelled after real-world data structures.
